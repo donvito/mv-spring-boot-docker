@@ -5,7 +5,7 @@ https://spring.io/guides/gs/spring-boot/
 
 Modified pom.xml so you can build the project and create a Docker image out of it.
 
-Step 1: docker package docker:build
+Step 1: mvn package docker:build
 
 To check if the docker image has been created, execute in the terminal:
 docker images
